@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Product List</h1>
+    <div id="product-list">
+        <div class="product">
+            <span class="product-name">Product 1</span>
+            <span class="product-price" data-price="10">$10</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <span class="product-name">Product 2</span>
+            <span class="product-price" data-price="15">$15</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <span class="product-name">Product 3</span>
+            <span class="product-price" data-price="20">$20</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    <h2>Total Price: $<span id="total-price">0</span></h2>
+    <button id="clear-cart">Clear Cart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
